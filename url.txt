@@ -1,1 +1,1 @@
-https://dist.torproject.org/torbrowser/11.5.7/
+https://github.com/EXALAB/Anlinux-Resources/raw/master/Rootfs/Kali/arm64/kali-rootfs-arm64.tar.xz
