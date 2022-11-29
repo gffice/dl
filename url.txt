@@ -1,1 +1,1 @@
-https://github.com/EXALAB/Anlinux-Resources/raw/master/Rootfs/Kali/arm64/kali-rootfs-arm64.tar.xz
+https://github.com/EXALAB/Anlinux-Resources/raw/master/Rootfs/Ubuntu/arm64/ubuntu-rootfs-arm64.tar.xz
