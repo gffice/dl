@@ -1,1 +1,1 @@
-https://github.com/EXALAB/Anlinux-Resources/raw/master/Rootfs/Ubuntu/arm64/ubuntu-rootfs-arm64.tar.xz
+https://gffice.github.io/tordata/tor-browser-11.5.6-android-aarch64-multi.apk
