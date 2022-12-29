@@ -35,7 +35,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo ----------------
-          wget -i url.txt
+          # wget -i url.txt
+          git clone https://github.com/EXALAB/Anlinux-Resources
           echo ----------------
       - name: Upload artifact # 上传构建产物，这里我们的源码目录是 src，而实际运行的代码是构建后的 bin 目录
         uses: actions/upload-artifact@v2
