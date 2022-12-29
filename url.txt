@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/aefa6/VPNsub/main/sub/sub_merge.txt
+https://gffice.github.io/tordata/tor-browser-11.5.6-android-aarch64-multi.apk
