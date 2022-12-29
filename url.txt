@@ -1,1 +1,1 @@
-https://github.com/2dust/v2rayNG/releases/download/1.7.23/v2rayNG_1.7.23_arm64-v8a.apk
+https://raw.githubusercontent.com/aefa6/VPNsub/main/sub/sub_merge.txt
