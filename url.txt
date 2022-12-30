@@ -1,1 +1,1 @@
-https://cdimage.kali.org/kali-2022.4/kali-linux-2022.4-installer-arm64.iso
+https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk
