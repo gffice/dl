@@ -1,1 +1,1 @@
-https://gffice.github.io/tordata/tor-browser-11.5.6-android-aarch64-multi.apk
+https://cdimage.kali.org/kali-2022.4/kali-linux-2022.4-installer-arm64.iso
