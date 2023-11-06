@@ -1,1 +1,1 @@
-https://kali.download/nethunter-images/current/rootfs/kalifs-arm64-full.tar.xz
+https://www.torproject.org/dist/torbrowser/13.0.1/tor-browser-linux-x86_64-13.0.1.tar.xz
