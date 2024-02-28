@@ -41,10 +41,10 @@ jobs:
           mkdir /mnt/data
           cd /mnt/data
           wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.zip?sign=rULzu6rvVoZnfPbjNyevPmnqD9qw2mYNjogKugIGvQU=:0 -O com.miHoYo.ys.x.zip
-          wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.z01?sign=rULzu6rvVoZnfPbjNyevPmnqD9qw2mYNjogKugIGvQU=:0 -O com.miHoYo.ys.x.z01
-          wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.z02?sign=rULzu6rvVoZnfPbjNyevPmnqD9qw2mYNjogKugIGvQU=:0 -O com.miHoYo.ys.x.z02
-          wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.z03?sign=rULzu6rvVoZnfPbjNyevPmnqD9qw2mYNjogKugIGvQU=:0 -O com.miHoYo.ys.x.z03
-          wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.z04?sign=rULzu6rvVoZnfPbjNyevPmnqD9qw2mYNjogKugIGvQU=:0 -O com.miHoYo.ys.x.z04
+          wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.z01?sign=judN5E6iiYM8VQa2cySbbvEtv5AvnHO9m9Nso659w6g=:0 -O com.miHoYo.ys.x.z01
+          wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.z02?sign=s0AoEVNejtSn14NMpahou75wjbFEP4RUIIIVJUo_vAY=:0 -O com.miHoYo.ys.x.z02
+          wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.z03?sign=hpXWN6LbFXyyN0nEConWpKqUvRGj0pA5ZCyU9sElb1c=:0 -O com.miHoYo.ys.x.z03
+          wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.z04?sign=PgNc2LANJNi9Q1xQvm-E2FrMZnxri0j-jtXbc4anahw=:0 -O com.miHoYo.ys.x.z04
           #git clone https://chromium.googlesource.com/external/github.com/llvm/llvm-project.git
           echo ----------------
           
