@@ -28,14 +28,20 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: sudo apt install zip
-
+      - name: Run a one-line script
+        run: df -h
       # Runs a set of commands using the runners shell
       - name: 下载
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
           echo ----------------
-          wget -i url.txt
+          # wget -i url.txt
+          wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.zip?sign=rULzu6rvVoZnfPbjNyevPmnqD9qw2mYNjogKugIGvQU=:0 -O com.miHoYo.ys.x.zip
+          wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.z01?sign=rULzu6rvVoZnfPbjNyevPmnqD9qw2mYNjogKugIGvQU=:0 -O com.miHoYo.ys.x.z01
+          wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.z02?sign=rULzu6rvVoZnfPbjNyevPmnqD9qw2mYNjogKugIGvQU=:0 -O com.miHoYo.ys.x.z02
+          wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.z03?sign=rULzu6rvVoZnfPbjNyevPmnqD9qw2mYNjogKugIGvQU=:0 -O com.miHoYo.ys.x.z03
+          wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.z04?sign=rULzu6rvVoZnfPbjNyevPmnqD9qw2mYNjogKugIGvQU=:0 -O com.miHoYo.ys.x.z04
           #git clone https://chromium.googlesource.com/external/github.com/llvm/llvm-project.git
           echo ----------------
           
