@@ -37,6 +37,9 @@ jobs:
           echo test, and deploy your project.
           echo ----------------
           # wget -i url.txt
+          sudo chmod -R 777 /mnt
+          mkdir /mnt/data
+          cd /mnt/data
           wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.zip?sign=rULzu6rvVoZnfPbjNyevPmnqD9qw2mYNjogKugIGvQU=:0 -O com.miHoYo.ys.x.zip
           wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.z01?sign=rULzu6rvVoZnfPbjNyevPmnqD9qw2mYNjogKugIGvQU=:0 -O com.miHoYo.ys.x.z01
           wget https://file2.yuuki.me/d/Public/GD1/Project/GenshinImpact/Data/Android/3.2.0/Global/Part/com.miHoYo.ys.x.z02?sign=rULzu6rvVoZnfPbjNyevPmnqD9qw2mYNjogKugIGvQU=:0 -O com.miHoYo.ys.x.z02
@@ -46,9 +49,9 @@ jobs:
           echo ----------------
           
       - name: 打包
-        run: zip -r ~/download.zip .
+        run: zip -r /mnt/download.zip /mnt/data/
       - name: 上传 # 上传构建产物，这里我们的源码目录是 src，而实际运行的代码是构建后的 bin 目录
         uses: actions/upload-artifact@v2
         with:
           name: download_output
-          path: ~/download.zip
+          path: /mnt/download.zip
