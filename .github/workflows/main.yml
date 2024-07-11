@@ -37,7 +37,7 @@ jobs:
           echo test, and deploy your project.
           echo ----------------
           # wget -i url.txt
-          #sudo chmod -R 777 /mnt
+          sudo chmod -R 777 /mnt
           #mkdir /mnt/data
           #cd /mnt/data
           wget -i url.txt
