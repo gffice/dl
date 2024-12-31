@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: sudo apt install zip
+        run: sudo apt install aria2 tar -y
       - name: Run a one-line script
         run: df -h
       # Runs a set of commands using the runners shell
@@ -40,13 +40,13 @@ jobs:
           sudo chmod -R 777 /mnt
           #mkdir /mnt/data
           #cd /mnt/data
-          wget -i url.txt
+          aria2c $(cat url.txt)
           echo ----------------
           
       - name: 打包
-        run: zip -r /mnt/download.zip ./
+        run: tar cJvf /mnt/download.tar.xz ./
       - name: 上传 # 上传构建产物，这里我们的源码目录是 src，而实际运行的代码是构建后的 bin 目录
         uses: actions/upload-artifact@v2
         with:
           name: download_output
-          path: /mnt/download.zip
+          path: /mnt/download.tar.xz
