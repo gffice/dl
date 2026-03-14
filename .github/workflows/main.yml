@@ -37,6 +37,7 @@ jobs:
           echo test, and deploy your project.
           echo ----------------
           # wget -i url.txt
+          mv url.txt ~
           mkdir ~/data
           cd ~/data
           wget $(cat url.txt)
