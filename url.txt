@@ -1,1 +1,1 @@
-https://mirrors.wikimedia.org/tails/stable/tails-amd64-6.11/tails-amd64-6.11.iso
+https://www.torproject.org/dist/torbrowser/15.0.7/tor-browser-linux-x86_64-15.0.7.tar.xz
