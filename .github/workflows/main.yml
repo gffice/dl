@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: sudo apt install aria2 tar p7zip-full -y
+        run: sudo apt install tar p7zip-full -y
       - name: Run a one-line script
         run: df -h
       # Runs a set of commands using the runners shell
@@ -39,7 +39,7 @@ jobs:
           # wget -i url.txt
           mkdir ~/data
           cd ~/data
-          aria2c $(cat url.txt)
+          wget $(cat url.txt)
           echo ----------------
           
       - name: 打包
