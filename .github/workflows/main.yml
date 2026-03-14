@@ -23,7 +23,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@main
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
@@ -37,16 +37,15 @@ jobs:
           echo test, and deploy your project.
           echo ----------------
           # wget -i url.txt
-          sudo chmod -R 777 /mnt
-          #mkdir /mnt/data
-          #cd /mnt/data
+          mkdir ~/data
+          cd ~/data
           aria2c $(cat url.txt)
           echo ----------------
           
       - name: 打包
-        run: 7z a -mx=9 /mnt/mirror.7z ./
+        run: 7z a -mx=9 mirror.7z ~/data
       - name: 上传 # 上传构建产物，这里我们的源码目录是 src，而实际运行的代码是构建后的 bin 目录
-        uses: actions/upload-artifact@v4.5.0
+        uses: actions/upload-artifact@main
         with:
           name: download_output
-          path: /mnt/mirror.7z
+          path: mirror.7z
